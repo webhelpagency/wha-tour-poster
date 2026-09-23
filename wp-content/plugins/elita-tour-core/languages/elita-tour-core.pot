@@ -1,0 +1,893 @@
+# Copyright (C) 2026 Web Help Agency
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Elita Tour Core 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/elita-tour-core\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-23T07:13:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: elita-tour-core\n"
+
+#. Plugin Name of the plugin
+#: elita-tour-core.php
+msgid "Elita Tour Core"
+msgstr ""
+
+#. Description of the plugin
+#: elita-tour-core.php
+msgid "Companion plugin for the Elita Tour theme: tour post type, tour taxonomies, tour meta fields and the lead request form (shortcode and block)."
+msgstr ""
+
+#. Author of the plugin
+#: elita-tour-core.php
+msgid "Web Help Agency"
+msgstr ""
+
+#. Author URI of the plugin
+#: elita-tour-core.php
+msgid "https://webhelpagency.com/"
+msgstr ""
+
+#: includes/admin.php:23
+#: includes/meta.php:494
+msgid "Days"
+msgstr ""
+
+#: includes/admin.php:24
+#: includes/meta.php:525
+msgid "Price"
+msgstr ""
+
+#: includes/admin.php:25
+msgid "Next departure"
+msgstr ""
+
+#: includes/admin.php:26
+msgid "Hit"
+msgstr ""
+
+#: includes/admin.php:67
+msgid "Yes"
+msgstr ""
+
+#: includes/admin.php:119
+#: includes/admin.php:171
+#: includes/lead-form.php:190
+msgid "Phone"
+msgstr ""
+
+#: includes/admin.php:153
+msgid "Request details"
+msgstr ""
+
+#: includes/admin.php:170
+#: includes/lead-form.php:186
+msgid "Name"
+msgstr ""
+
+#: includes/admin.php:172
+#: includes/lead-form.php:194
+msgid "Comment"
+msgstr ""
+
+#: includes/admin.php:173
+msgid "Page"
+msgstr ""
+
+#. translators: %s: image file name.
+#: includes/demo-import.php:147
+#, php-format
+msgid "Demo image %s is missing."
+msgstr ""
+
+#. translators: %s: image file name.
+#: includes/demo-import.php:165
+#, php-format
+msgid "Could not prepare the demo image %s."
+msgstr ""
+
+#. translators: 1: image file name, 2: error message.
+#: includes/demo-import.php:184
+#, php-format
+msgid "Could not import the demo image %1$s: %2$s"
+msgstr ""
+
+#. translators: 1: term name, 2: error message.
+#: includes/demo-import.php:235
+#, php-format
+msgid "Could not create the term %1$s: %2$s"
+msgstr ""
+
+#: includes/demo-import.php:287
+msgid "The demo content file is missing."
+msgstr ""
+
+#: includes/demo-import.php:293
+msgid "The Tour post type is not registered."
+msgstr ""
+
+#. translators: 1: tour title, 2: error message.
+#: includes/demo-import.php:397
+#, php-format
+msgid "Could not create the tour %1$s: %2$s"
+msgstr ""
+
+#. translators: 1: page title, 2: error message.
+#: includes/demo-import.php:472
+#, php-format
+msgid "Could not create the page %1$s: %2$s"
+msgstr ""
+
+#. translators: 1: menu name, 2: error message.
+#: includes/demo-import.php:538
+#, php-format
+msgid "Could not create the menu %1$s: %2$s"
+msgstr ""
+
+#: includes/demo-import.php:696
+msgid "Tour categories"
+msgstr ""
+
+#: includes/demo-import.php:697
+#: includes/taxonomies.php:63
+msgid "Seasons"
+msgstr ""
+
+#: includes/demo-import.php:698
+#: includes/taxonomies.php:99
+msgid "Countries"
+msgstr ""
+
+#: includes/demo-import.php:699
+msgid "Tours"
+msgstr ""
+
+#: includes/demo-import.php:700
+msgid "Images"
+msgstr ""
+
+#: includes/demo-import.php:701
+msgid "Pages"
+msgstr ""
+
+#: includes/demo-import.php:702
+msgid "Menus"
+msgstr ""
+
+#: includes/demo-import.php:703
+msgid "Customizer settings"
+msgstr ""
+
+#: includes/demo-import.php:704
+msgid "Reading settings"
+msgstr ""
+
+#. translators: 1: group of demo items, 2: number of created items, 3: number of skipped items.
+#: includes/demo-import.php:712
+#, php-format
+msgid "%1$s: %2$d created, %3$d skipped"
+msgstr ""
+
+#: includes/demo-import.php:730
+#: includes/demo-import.php:731
+#: includes/demo-import.php:844
+#: includes/demo-import.php:863
+msgid "Import demo content"
+msgstr ""
+
+#: includes/demo-import.php:756
+#: includes/demo-import.php:831
+msgid "You are not allowed to import demo content."
+msgstr ""
+
+#: includes/demo-import.php:805
+msgid "The demo import reported problems:"
+msgstr ""
+
+#: includes/demo-import.php:814
+#: includes/demo-import.php:894
+msgid "Demo content imported."
+msgstr ""
+
+#: includes/demo-import.php:835
+msgid "Four tour categories, four seasons and eleven countries."
+msgstr ""
+
+#: includes/demo-import.php:836
+msgid "Twelve sample tours with route, dates, price and a featured image."
+msgstr ""
+
+#: includes/demo-import.php:837
+msgid "Four pages: a front page, a blog page, an about page and a contact page."
+msgstr ""
+
+#: includes/demo-import.php:838
+msgid "A primary menu and a footer menu, for theme locations that have none yet."
+msgstr ""
+
+#: includes/demo-import.php:839
+msgid "Customizer settings of the Elita Tour theme that are still empty, and the Reading settings of a site that still shows the latest posts."
+msgstr ""
+
+#: includes/demo-import.php:846
+msgid "Fills the site with a sample tour catalogue, so that a fresh installation looks like the theme demo. Nothing that already exists is changed or overwritten, and running the import twice creates no duplicates."
+msgstr ""
+
+#: includes/demo-import.php:848
+msgid "The import creates:"
+msgstr ""
+
+#: includes/demo-import.php:857
+msgid "All demo photographs are bundled with the plugin and released under CC0 1.0 Universal (public domain dedication)."
+msgstr ""
+
+#: includes/demo-import.php:858
+msgid "See the photo credits"
+msgstr ""
+
+#: includes/demo-import.php:891
+msgid "The demo import finished with problems."
+msgstr ""
+
+#. translators: 1: start date, 2: end date.
+#: includes/helpers.php:283
+#, php-format
+msgctxt "departure date range"
+msgid "%1$s – %2$s"
+msgstr ""
+
+#. translators: 1: nearest departure range, 2: number of further departures.
+#: includes/helpers.php:323
+#, php-format
+msgctxt "departure dates summary"
+msgid "%1$s +%2$d"
+msgstr ""
+
+#: includes/helpers.php:339
+#: includes/meta.php:515
+msgid "Bus"
+msgstr ""
+
+#: includes/helpers.php:340
+#: includes/meta.php:516
+msgid "Plane"
+msgstr ""
+
+#: includes/helpers.php:341
+#: includes/meta.php:517
+msgid "Train"
+msgstr ""
+
+#: includes/helpers.php:342
+#: includes/meta.php:518
+msgid "Combined"
+msgstr ""
+
+#: includes/helpers.php:428
+msgid "on request"
+msgstr ""
+
+#: includes/lead-form.php:153
+msgid "Send request"
+msgstr ""
+
+#: includes/lead-form.php:154
+msgid "We will call you back during the working day. No spam, no newsletters."
+msgstr ""
+
+#: includes/lead-form.php:168
+msgid "Thank you! We have received your request and will call you back shortly."
+msgstr ""
+
+#: includes/lead-form.php:174
+msgid "Sorry, the request could not be sent. Please check the name and the phone number and try again."
+msgstr ""
+
+#: includes/lead-form.php:182
+msgid "Leave this field empty"
+msgstr ""
+
+#: includes/lead-form.php:187
+msgid "How should we address you"
+msgstr ""
+
+#: includes/lead-form.php:191
+msgid "+38 0__ ___ __ __"
+msgstr ""
+
+#: includes/lead-form.php:195
+msgid "Group size, ages, preferred dates"
+msgstr ""
+
+#. translators: 1: visitor name, 2: submission date.
+#: includes/lead-form.php:254
+#, php-format
+msgid "Request from %1$s (%2$s)"
+msgstr ""
+
+#. translators: %s: site name.
+#: includes/lead-form.php:276
+#, php-format
+msgid "New tour request on %s"
+msgstr ""
+
+#. translators: %s: visitor name.
+#: includes/lead-form.php:282
+#, php-format
+msgid "Name: %s"
+msgstr ""
+
+#. translators: %s: visitor phone number.
+#: includes/lead-form.php:284
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#. translators: %s: visitor comment.
+#: includes/lead-form.php:286
+#, php-format
+msgid "Comment: %s"
+msgstr ""
+
+#. translators: %s: page URL the form was submitted from.
+#: includes/lead-form.php:288
+#, php-format
+msgid "Page: %s"
+msgstr ""
+
+#: includes/meta.php:188
+msgid "Duration of the tour in days."
+msgstr ""
+
+#: includes/meta.php:202
+msgid "Main transport used on the tour."
+msgstr ""
+
+#: includes/meta.php:221
+msgid "Price label. Leave empty for \"on request\"."
+msgstr ""
+
+#: includes/meta.php:235
+msgid "Ordered list of route stops."
+msgstr ""
+
+#: includes/meta.php:256
+msgid "Departure dates with availability status."
+msgstr ""
+
+#: includes/meta.php:268
+msgid "First day, in Y-m-d format."
+msgstr ""
+
+#: includes/meta.php:273
+msgid "Last day, in Y-m-d format."
+msgstr ""
+
+#: includes/meta.php:293
+msgid "Whether the tour is highlighted as a season hit."
+msgstr ""
+
+#: includes/meta.php:312
+msgid "Computed date of the next departure, in Y-m-d format."
+msgstr ""
+
+#: includes/meta.php:485
+msgid "Tour details"
+msgstr ""
+
+#: includes/meta.php:495
+msgid "Length of the programme in days."
+msgstr ""
+
+#: includes/meta.php:509
+msgid "Transport"
+msgstr ""
+
+#: includes/meta.php:526
+msgid "Free text, for example \"from 455 €\". Leave empty to show \"on request\"."
+msgstr ""
+
+#: includes/meta.php:535
+msgid "Route"
+msgstr ""
+
+#: includes/meta.php:536
+msgid "One stop per row, in travel order."
+msgstr ""
+
+#: includes/meta.php:542
+msgid "Add stop"
+msgstr ""
+
+#: includes/meta.php:549
+msgid "Departure dates"
+msgstr ""
+
+#: includes/meta.php:554
+msgid "Departure {#}"
+msgstr ""
+
+#: includes/meta.php:555
+msgid "Add departure"
+msgstr ""
+
+#: includes/meta.php:556
+msgid "Remove departure"
+msgstr ""
+
+#: includes/meta.php:559
+msgid "Remove this departure?"
+msgstr ""
+
+#: includes/meta.php:567
+msgid "Start"
+msgstr ""
+
+#: includes/meta.php:578
+msgid "End"
+msgstr ""
+
+#: includes/meta.php:589
+msgid "Status"
+msgstr ""
+
+#: includes/meta.php:595
+msgid "Places available"
+msgstr ""
+
+#: includes/meta.php:596
+msgid "Few places left"
+msgstr ""
+
+#: includes/meta.php:597
+msgid "Sold out"
+msgstr ""
+
+#: includes/meta.php:604
+msgid "Season hit"
+msgstr ""
+
+#: includes/meta.php:605
+msgid "Show this tour in the \"hits of the season\" section."
+msgstr ""
+
+#: includes/meta.php:627
+msgid "Category settings"
+msgstr ""
+
+#: includes/meta.php:635
+msgid "Image"
+msgstr ""
+
+#: includes/meta.php:636
+msgid "Image used on the category panel."
+msgstr ""
+
+#: includes/meta.php:643
+msgid "Add image"
+msgstr ""
+
+#: includes/meta.php:654
+msgid "Short description"
+msgstr ""
+
+#: includes/meta.php:655
+msgid "One line shown under the category title."
+msgstr ""
+
+#: includes/meta.php:664
+msgid "Colour"
+msgstr ""
+
+#: includes/meta.php:665
+msgid "Badge colour. Leave on \"Automatic\" to derive it from the slug."
+msgstr ""
+
+#: includes/meta.php:671
+msgid "Automatic"
+msgstr ""
+
+#: includes/meta.php:672
+msgid "Camps"
+msgstr ""
+
+#: includes/meta.php:673
+msgid "Europe"
+msgstr ""
+
+#: includes/meta.php:674
+msgid "Ukraine"
+msgstr ""
+
+#: includes/meta.php:675
+msgid "Adventure"
+msgstr ""
+
+#: includes/meta.php:683
+msgid "Season settings"
+msgstr ""
+
+#: includes/meta.php:691
+msgid "Order"
+msgstr ""
+
+#: includes/meta.php:692
+msgid "Lower numbers come first in the season tabs."
+msgstr ""
+
+#: includes/post-types.php:18
+msgctxt "Post type general name"
+msgid "Tours"
+msgstr ""
+
+#: includes/post-types.php:19
+msgctxt "Post type singular name"
+msgid "Tour"
+msgstr ""
+
+#: includes/post-types.php:20
+msgctxt "Admin Menu text"
+msgid "Tours"
+msgstr ""
+
+#: includes/post-types.php:21
+msgctxt "Add New on Toolbar"
+msgid "Tour"
+msgstr ""
+
+#: includes/post-types.php:22
+msgid "Add New"
+msgstr ""
+
+#: includes/post-types.php:23
+msgid "Add New Tour"
+msgstr ""
+
+#: includes/post-types.php:24
+msgid "New Tour"
+msgstr ""
+
+#: includes/post-types.php:25
+msgid "Edit Tour"
+msgstr ""
+
+#: includes/post-types.php:26
+msgid "View Tour"
+msgstr ""
+
+#: includes/post-types.php:27
+msgid "View Tours"
+msgstr ""
+
+#: includes/post-types.php:28
+msgid "All Tours"
+msgstr ""
+
+#: includes/post-types.php:29
+msgid "Search Tours"
+msgstr ""
+
+#: includes/post-types.php:30
+msgid "Parent Tours:"
+msgstr ""
+
+#: includes/post-types.php:31
+msgid "No tours found."
+msgstr ""
+
+#: includes/post-types.php:32
+msgid "No tours found in Trash."
+msgstr ""
+
+#: includes/post-types.php:33
+msgid "Tour poster"
+msgstr ""
+
+#: includes/post-types.php:34
+msgid "Set tour poster"
+msgstr ""
+
+#: includes/post-types.php:35
+msgid "Remove tour poster"
+msgstr ""
+
+#: includes/post-types.php:36
+msgid "Use as tour poster"
+msgstr ""
+
+#: includes/post-types.php:37
+msgid "Tour archives"
+msgstr ""
+
+#: includes/post-types.php:38
+msgid "Insert into tour"
+msgstr ""
+
+#: includes/post-types.php:39
+msgid "Uploaded to this tour"
+msgstr ""
+
+#: includes/post-types.php:40
+msgid "Filter tours list"
+msgstr ""
+
+#: includes/post-types.php:41
+msgid "Tours list navigation"
+msgstr ""
+
+#: includes/post-types.php:42
+msgid "Tours list"
+msgstr ""
+
+#: includes/post-types.php:43
+msgid "Tour published."
+msgstr ""
+
+#: includes/post-types.php:44
+msgid "Tour updated."
+msgstr ""
+
+#: includes/post-types.php:51
+msgid "Travel programmes offered by the agency."
+msgstr ""
+
+#: includes/post-types.php:77
+msgctxt "Post type general name"
+msgid "Leads"
+msgstr ""
+
+#: includes/post-types.php:78
+msgctxt "Post type singular name"
+msgid "Lead"
+msgstr ""
+
+#: includes/post-types.php:79
+msgctxt "Admin Menu text"
+msgid "Leads"
+msgstr ""
+
+#: includes/post-types.php:80
+msgid "Leads"
+msgstr ""
+
+#: includes/post-types.php:81
+msgid "Lead"
+msgstr ""
+
+#: includes/post-types.php:82
+msgid "View Lead"
+msgstr ""
+
+#: includes/post-types.php:83
+msgid "Search Leads"
+msgstr ""
+
+#: includes/post-types.php:84
+msgid "No leads found."
+msgstr ""
+
+#: includes/post-types.php:85
+msgid "No leads found in Trash."
+msgstr ""
+
+#: includes/post-types.php:92
+msgid "Requests submitted through the lead form."
+msgstr ""
+
+#: includes/taxonomies.php:22
+msgctxt "Taxonomy general name"
+msgid "Tour Categories"
+msgstr ""
+
+#: includes/taxonomies.php:23
+msgctxt "Taxonomy singular name"
+msgid "Tour Category"
+msgstr ""
+
+#: includes/taxonomies.php:24
+msgid "Categories"
+msgstr ""
+
+#: includes/taxonomies.php:25
+msgid "All Tour Categories"
+msgstr ""
+
+#: includes/taxonomies.php:26
+msgid "Edit Tour Category"
+msgstr ""
+
+#: includes/taxonomies.php:27
+msgid "View Tour Category"
+msgstr ""
+
+#: includes/taxonomies.php:28
+msgid "Update Tour Category"
+msgstr ""
+
+#: includes/taxonomies.php:29
+msgid "Add New Tour Category"
+msgstr ""
+
+#: includes/taxonomies.php:30
+msgid "New Tour Category Name"
+msgstr ""
+
+#: includes/taxonomies.php:31
+msgid "Parent Tour Category"
+msgstr ""
+
+#: includes/taxonomies.php:32
+msgid "Parent Tour Category:"
+msgstr ""
+
+#: includes/taxonomies.php:33
+msgid "Search Tour Categories"
+msgstr ""
+
+#: includes/taxonomies.php:34
+msgid "No tour categories found."
+msgstr ""
+
+#: includes/taxonomies.php:35
+msgid "Back to Tour Categories"
+msgstr ""
+
+#: includes/taxonomies.php:37
+msgid "Groups of tours, for example camps or school trips."
+msgstr ""
+
+#: includes/taxonomies.php:61
+msgctxt "Taxonomy general name"
+msgid "Seasons"
+msgstr ""
+
+#: includes/taxonomies.php:62
+msgctxt "Taxonomy singular name"
+msgid "Season"
+msgstr ""
+
+#: includes/taxonomies.php:64
+msgid "All Seasons"
+msgstr ""
+
+#: includes/taxonomies.php:65
+msgid "Edit Season"
+msgstr ""
+
+#: includes/taxonomies.php:66
+msgid "View Season"
+msgstr ""
+
+#: includes/taxonomies.php:67
+msgid "Update Season"
+msgstr ""
+
+#: includes/taxonomies.php:68
+msgid "Add New Season"
+msgstr ""
+
+#: includes/taxonomies.php:69
+msgid "New Season Name"
+msgstr ""
+
+#: includes/taxonomies.php:70
+msgid "Search Seasons"
+msgstr ""
+
+#: includes/taxonomies.php:71
+msgid "No seasons found."
+msgstr ""
+
+#: includes/taxonomies.php:72
+msgid "Back to Seasons"
+msgstr ""
+
+#: includes/taxonomies.php:74
+msgid "Season a tour belongs to."
+msgstr ""
+
+#: includes/taxonomies.php:97
+msgctxt "Taxonomy general name"
+msgid "Countries"
+msgstr ""
+
+#: includes/taxonomies.php:98
+msgctxt "Taxonomy singular name"
+msgid "Country"
+msgstr ""
+
+#: includes/taxonomies.php:100
+msgid "All Countries"
+msgstr ""
+
+#: includes/taxonomies.php:101
+msgid "Edit Country"
+msgstr ""
+
+#: includes/taxonomies.php:102
+msgid "View Country"
+msgstr ""
+
+#: includes/taxonomies.php:103
+msgid "Update Country"
+msgstr ""
+
+#: includes/taxonomies.php:104
+msgid "Add New Country"
+msgstr ""
+
+#: includes/taxonomies.php:105
+msgid "New Country Name"
+msgstr ""
+
+#: includes/taxonomies.php:106
+msgid "Search Countries"
+msgstr ""
+
+#: includes/taxonomies.php:107
+msgid "No countries found."
+msgstr ""
+
+#: includes/taxonomies.php:108
+msgid "Back to Countries"
+msgstr ""
+
+#: includes/taxonomies.php:110
+msgid "Country a tour takes place in."
+msgstr ""
+
+#: includes/taxonomies.php:142
+msgid "Attachment ID of the category image."
+msgstr ""
+
+#: includes/taxonomies.php:156
+msgid "Short description shown on the category panel."
+msgstr ""
+
+#: includes/taxonomies.php:170
+msgid "Colour key used for the category badge."
+msgstr ""
+
+#: includes/taxonomies.php:189
+msgid "Sort order of the season."
+msgstr ""
+
+#: blocks/lead-form/index.js:32
+msgid "Lead form"
+msgstr ""
+
+#: blocks/lead-form/block.json
+msgctxt "block title"
+msgid "Lead form"
+msgstr ""
+
+#: blocks/lead-form/block.json
+msgctxt "block description"
+msgid "Request form: name, phone and comment. Submissions are emailed and stored in Leads."
+msgstr ""
+
+#: blocks/lead-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr ""
+
+#: blocks/lead-form/block.json
+msgctxt "block keyword"
+msgid "lead"
+msgstr ""
+
+#: blocks/lead-form/block.json
+msgctxt "block keyword"
+msgid "contact"
+msgstr ""
+
+#: blocks/lead-form/block.json
+msgctxt "block keyword"
+msgid "request"
+msgstr ""

@@ -1,0 +1,852 @@
+# Copyright (C) 2026 Web Help Agency
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Elita Tour 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/elita-tour\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-22T12:20:27+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: elita-tour\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/customizer.php:37
+msgid "Elita Tour"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/webhelpagency/elita-tour"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Elita Tour is a poster-styled theme for a children's tour operator: the front page leads with full-bleed category panels, programmes are presented as poster cards over photography, seasonal departures are grouped into keyboard-accessible tabs, and the footer keeps contacts and social links within reach. It bundles the Oswald and Manrope webfonts with full Cyrillic coverage and ships a matching block editor stylesheet. Designed for tour operators; when a tour post type with route, dates and price data is available (such as the Elita Tour Core plugin), it renders poster cards and seasonal departures; otherwise it falls back to standard posts and categories."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Web Help Agency"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://webhelpagency.com"
+msgstr ""
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Try a search, or pick a programme from the catalogue."
+msgstr ""
+
+#: 404.php:26
+msgid "Back to the homepage"
+msgstr ""
+
+#: archive.php:26
+msgid "Archive"
+msgstr ""
+
+#: archive.php:60
+#: index.php:61
+#: search.php:69
+#: template-parts/tour/archive.php:215
+msgid "Previous"
+msgstr ""
+
+#: archive.php:61
+#: index.php:62
+#: search.php:70
+#: template-parts/tour/archive.php:216
+msgid "Next"
+msgstr ""
+
+#: archive.php:62
+#: index.php:63
+msgid "Posts navigation"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: 1: current year, 2: site name.
+#: footer.php:52
+#, php-format
+msgid "© %1$s %2$s"
+msgstr ""
+
+#: footer.php:61
+msgid "Footer menu"
+msgstr ""
+
+#. translators: 1: theme name, 2: theme author link.
+#: footer.php:81
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: front-page.php:57
+#: single-tour.php:114
+#: template-parts/content-page.php:25
+#: template-parts/content-single.php:49
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:57
+msgid "Footer Legal Menu"
+msgstr ""
+
+#: functions.php:128
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:130
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:139
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:140
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:141
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:149
+msgid "Widgets shown in the footer column."
+msgstr ""
+
+#: functions.php:160
+msgid "Lead form"
+msgstr ""
+
+#: functions.php:162
+msgid "Drop the enquiry form widget of the Elita Tour Core plugin here."
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:48
+#: header.php:92
+msgid "Primary menu"
+msgstr ""
+
+#: header.php:69
+msgid "Open menu"
+msgstr ""
+
+#: header.php:75
+msgid "Site menu"
+msgstr ""
+
+#: header.php:86
+msgid "Close menu"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Contacts, call to action and social links used by the header and the footer."
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Phone number"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Shown in the header and in the mobile menu. Leave empty to hide the phone link."
+msgstr ""
+
+#: inc/customizer.php:73
+#: inc/template-tags.php:341
+msgid "Pick a programme"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Call to action label"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Call to action link"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "Leave empty to link to the request form on the front page."
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Social links"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Links shown in the footer. Empty fields are not rendered."
+msgstr ""
+
+#: inc/customizer.php:146
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Telegram URL"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Viber URL"
+msgstr ""
+
+#: inc/customizer.php:186
+msgid "Homepage hero"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Headline above the category panels of the homepage."
+msgstr ""
+
+#: inc/customizer.php:194
+#: inc/customizer.php:289
+msgid "Eyebrow"
+msgstr ""
+
+#: inc/customizer.php:195
+#: template-parts/home/hero.php:10
+msgid "Tour operator for children"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Headline"
+msgstr ""
+
+#: inc/customizer.php:201
+#: template-parts/home/hero.php:11
+msgid "Where are we going"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Headline accent"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Second half of the headline, shown in the accent colour."
+msgstr ""
+
+#: inc/customizer.php:208
+#: template-parts/home/hero.php:12
+msgid "for the holidays?"
+msgstr ""
+
+#: inc/customizer.php:213
+msgid "Lead paragraph"
+msgstr ""
+
+#: inc/customizer.php:214
+#: template-parts/home/hero.php:13
+msgid "Seaside camps, coach tours around Europe, excursions at home and adventure routes for school groups and families. Pick a direction, we arrange the rest."
+msgstr ""
+
+#: inc/customizer.php:226
+msgid "Homepage facts"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Four numbers shown below the programmes. A slot without a title is not rendered."
+msgstr ""
+
+#. translators: %d: fact number.
+#: inc/customizer.php:237
+#, php-format
+msgid "Fact %d: number"
+msgstr ""
+
+#. translators: %d: fact number.
+#: inc/customizer.php:244
+#, php-format
+msgid "Fact %d: accent"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Short suffix of the number, shown in the accent colour."
+msgstr ""
+
+#. translators: %d: fact number.
+#: inc/customizer.php:252
+#, php-format
+msgid "Fact %d: title"
+msgstr ""
+
+#. translators: %d: fact number.
+#: inc/customizer.php:259
+#, php-format
+msgid "Fact %d: text"
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Homepage about block"
+msgstr ""
+
+#: inc/customizer.php:273
+msgid "Title, excerpt and featured image are taken from the selected page. Without a page the block is not rendered."
+msgstr ""
+
+#: inc/customizer.php:281
+#: template-parts/home/about.php:18
+msgid "About us"
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "Page"
+msgstr ""
+
+#. translators: %d: stat number.
+#: inc/customizer.php:317
+#, php-format
+msgid "Stat %d: number"
+msgstr ""
+
+#. translators: %d: stat number.
+#: inc/customizer.php:324
+#, php-format
+msgid "Stat %d: label"
+msgstr ""
+
+#: inc/customizer.php:337
+msgid "Homepage enquiry block"
+msgstr ""
+
+#: inc/customizer.php:338
+msgid "Text next to the enquiry form. The form itself comes from the \"Lead form\" widget area or from the Elita Tour Core plugin."
+msgstr ""
+
+#: inc/customizer.php:348
+msgid "Heading"
+msgstr ""
+
+#: inc/customizer.php:349
+#: template-parts/home/lead.php:13
+msgid "Tell us about your group and we will pick a programme within a day"
+msgstr ""
+
+#: inc/customizer.php:354
+msgid "Text"
+msgstr ""
+
+#: inc/customizer.php:355
+#: template-parts/home/lead.php:14
+msgid "How many children, what age, when the holidays are and what budget you have. We take care of the rest."
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:61
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:64
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:68
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:71
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:81
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:98
+#: template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:397
+msgid "Facebook"
+msgstr ""
+
+#: inc/template-tags.php:398
+msgid "Instagram"
+msgstr ""
+
+#: inc/template-tags.php:399
+msgid "Telegram"
+msgstr ""
+
+#: inc/template-tags.php:400
+msgid "Viber"
+msgstr ""
+
+#: index.php:21
+msgid "Latest posts"
+msgstr ""
+
+#: index.php:31
+msgid "Blog"
+msgstr ""
+
+#: search.php:24
+msgid "Search"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:28
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:71
+msgid "Search results navigation"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "label"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:21
+msgctxt "placeholder"
+msgid "Where are we going?"
+msgstr ""
+
+#: searchform.php:25
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: single-tour.php:49
+msgid "Seats available"
+msgstr ""
+
+#: single-tour.php:50
+msgid "Few seats"
+msgstr ""
+
+#: single-tour.php:51
+msgid "Closed"
+msgstr ""
+
+#: single-tour.php:87
+#: template-parts/tour/poster.php:87
+msgid "Hit"
+msgstr ""
+
+#: single-tour.php:121
+msgid "Programme details"
+msgstr ""
+
+#: single-tour.php:124
+msgid "Price"
+msgstr ""
+
+#. translators: %d: number of days.
+#: single-tour.php:143
+#: template-parts/tour/poster.php:116
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: single-tour.php:169
+msgid "Departure dates"
+msgstr ""
+
+#: single-tour.php:193
+msgid "Route"
+msgstr ""
+
+#: single-tour.php:205
+msgid "Countries"
+msgstr ""
+
+#: single-tour.php:210
+msgid "Request this programme"
+msgstr ""
+
+#: single-tour.php:243
+msgid "Nearby"
+msgstr ""
+
+#: single-tour.php:244
+msgid "Similar programmes"
+msgstr ""
+
+#: single-tour.php:247
+#: template-parts/content-none.php:59
+#: template-parts/home/top.php:25
+msgid "All programmes"
+msgstr ""
+
+#: single.php:29
+msgid "Previous:"
+msgstr ""
+
+#: single.php:30
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Empty"
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid "Nothing found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:30
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:43
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:50
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/home/about.php:81
+msgid "More about the company"
+msgstr ""
+
+#: template-parts/home/facts.php:36
+msgid "Why parents trust us with their children"
+msgstr ""
+
+#: template-parts/home/facts.php:37
+msgid "What we take care of"
+msgstr ""
+
+#. translators: %d: number of programmes in the category.
+#: template-parts/home/hero.php:70
+#, php-format
+msgid "%d programme"
+msgid_plural "%d programmes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/home/hero.php:79
+msgid "View programmes"
+msgstr ""
+
+#: template-parts/home/lead.php:29
+msgid "Request"
+msgstr ""
+
+#: template-parts/home/lead.php:46
+msgid "Message us on Telegram"
+msgstr ""
+
+#: template-parts/home/lead.php:50
+msgid "Message us on Viber"
+msgstr ""
+
+#: template-parts/home/search.php:25
+msgid "Where"
+msgstr ""
+
+#: template-parts/home/search.php:26
+msgid "Any category"
+msgstr ""
+
+#: template-parts/home/search.php:30
+msgid "When"
+msgstr ""
+
+#: template-parts/home/search.php:31
+msgid "Any season"
+msgstr ""
+
+#: template-parts/home/search.php:36
+msgid "Country"
+msgstr ""
+
+#: template-parts/home/search.php:37
+msgid "All countries"
+msgstr ""
+
+#: template-parts/home/search.php:102
+msgid "Filter programmes"
+msgstr ""
+
+#: template-parts/home/search.php:130
+msgid "Show programmes"
+msgstr ""
+
+#: template-parts/home/seasons.php:52
+msgid "Holidays by the calendar"
+msgstr ""
+
+#: template-parts/home/seasons.php:53
+msgid "Upcoming departures"
+msgstr ""
+
+#: template-parts/home/seasons.php:56
+msgid "Season"
+msgstr ""
+
+#: template-parts/home/top.php:21
+msgid "Chosen most often"
+msgstr ""
+
+#: template-parts/home/top.php:22
+msgid "Season hits"
+msgstr ""
+
+#: template-parts/tour/archive.php:58
+msgid "Programmes"
+msgstr ""
+
+#: template-parts/tour/archive.php:142
+msgid "Catalogue"
+msgstr ""
+
+#: template-parts/tour/archive.php:154
+msgid "Filter by season"
+msgstr ""
+
+#: template-parts/tour/archive.php:155
+msgid "All seasons"
+msgstr ""
+
+#: template-parts/tour/archive.php:171
+msgid "Filter by category"
+msgstr ""
+
+#: template-parts/tour/archive.php:172
+msgid "All categories"
+msgstr ""
+
+#: template-parts/tour/archive.php:217
+msgid "Programmes navigation"
+msgstr ""
+
+#: template-parts/tour/poster.php:149
+msgid "price"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Pink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Pink deep"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Pink soft"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Blue"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Blue deep"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Blue soft"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Navy"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sun"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Available"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink 3"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Line"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Paper"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Paper 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Night"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Oswald"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Manrope"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "8"
+msgstr ""

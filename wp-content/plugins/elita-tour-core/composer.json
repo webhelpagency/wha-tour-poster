@@ -1,0 +1,16 @@
+{
+	"name": "webhelpagency/elita-tour-core",
+	"description": "Companion plugin for the Elita Tour WordPress theme: tour post type, taxonomies, meta and lead form.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=7.4",
+		"cmb2/cmb2": "^2.11"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"allow-plugins": {
+			"composer/installers": false
+		}
+	}
+}

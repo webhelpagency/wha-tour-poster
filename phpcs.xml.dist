@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<ruleset name="Elita Tour">
+	<description>Coding standards for the Elita Tour theme and its companion plugin.</description>
+
+	<!-- What to scan. -->
+	<file>wp-content/themes/elita-tour</file>
+	<file>wp-content/plugins/elita-tour-core</file>
+
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>dev/*</exclude-pattern>
+	<exclude-pattern>build/*</exclude-pattern>
+	<exclude-pattern>reference/*</exclude-pattern>
+	<exclude-pattern>*.js</exclude-pattern>
+	<exclude-pattern>*.css</exclude-pattern>
+
+	<!-- How to run. -->
+	<arg name="extensions" value="php"/>
+	<arg name="basepath" value="."/>
+	<arg name="colors"/>
+	<arg name="parallel" value="8"/>
+	<arg value="ps"/>
+
+	<!-- WordPress Coding Standards. -->
+	<rule ref="WordPress"/>
+
+	<!-- PHP cross-version compatibility, WordPress flavour. -->
+	<rule ref="PHPCompatibilityWP"/>
+	<config name="testVersion" value="7.4-"/>
+
+	<!-- Minimum supported WordPress version. -->
+	<config name="minimum_wp_version" value="6.6"/>
+
+	<!-- The template hierarchy dictates the theme file names: a taxonomy
+	     template is named after the taxonomy, so taxonomy-tour_season.php has
+	     to keep its underscore. This is the exception WPCS ships for themes. -->
+	<rule ref="WordPress.Files.FileName">
+		<properties>
+			<property name="is_theme" value="true"/>
+		</properties>
+	</rule>
+
+	<!-- Translations must use the theme or plugin text domain. -->
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="elita-tour"/>
+				<element value="elita-tour-core"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- Everything global must carry one of the project prefixes. -->
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="elita_tour"/>
+				<element value="elita_tour_core"/>
+				<element value="ELITA_TOUR"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>
