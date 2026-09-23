@@ -295,11 +295,6 @@ function elita_tour_core_demo_import() {
 		return $summary;
 	}
 
-	// Sideloading a dozen photographs takes longer than a normal request.
-	if ( function_exists( 'set_time_limit' ) ) {
-		set_time_limit( 120 );
-	}
-
 	$terms = array(
 		'tour_category' => array(),
 		'tour_season'   => array(),
