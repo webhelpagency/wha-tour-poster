@@ -1,6 +1,6 @@
 ---
 name: wporg-theme-requirements
-description: Distilled WordPress.org theme directory review requirements (licensing, code, plugin territory, accessibility, files, style.css/readme headers, classic theme checklist) plus project conventions for the Elita Tour theme. Load before writing or reviewing any theme/plugin code.
+description: Distilled WordPress.org theme directory review requirements (licensing, code, plugin territory, accessibility, files, style.css/readme headers, classic theme checklist) plus project conventions for the WHA Tour Poster theme. Load before writing or reviewing any theme/plugin code.
 ---
 
 # WordPress.org theme requirements (distilled, Sept 2026)
@@ -16,15 +16,15 @@ Source: https://make.wordpress.org/themes/handbook/review/required/ — re-fetch
 
 ## Plugin territory (NOT allowed inside a theme)
 - Custom post types, taxonomies, meta boxes, shortcodes, custom blocks, contact-form handling, SEO, analytics, social buttons, demo import, user roles.
-- → All of that lives in the companion plugin `elita-tour-core`. The theme must work without it.
+- → All of that lives in the companion plugin `wha-tours-core`. The theme must work without it.
 - Theme may only *recommend* plugins hosted on WordPress.org (via `admin_notices`, dismissible, no auto-install).
 
 ## Code
 - No PHP/JS errors, warnings, notices. No deprecated functions.
-- Prefix all public items with a unique ≥4-letter prefix: `elita_tour_` / `ELITA_TOUR_` / `elita-tour-` (handles). Exceptions: 3rd-party asset handles, menu/sidebar IDs.
+- Prefix all public items with a unique ≥4-letter prefix: `wha_tour_poster_` / `WHA_TOUR_POSTER_` / `wha-tour-poster-` (handles). Exceptions: 3rd-party asset handles, menu/sidebar IDs.
 - Escape late (`esc_html__`, `esc_attr`, `esc_url`, `wp_kses_post`), sanitize early. Customizer settings need `sanitize_callback`.
 - Enqueue all assets with `wp_enqueue_script/style`; bundle originals next to minified files; use WP-bundled jQuery if needed (prefer vanilla JS).
-- All strings translatable, text domain = theme slug (`elita-tour`).
+- All strings translatable, text domain = theme slug (`wha-tour-poster`).
 - Options: one prefixed option (array) via Settings/Options API, or `theme_mod`s via Customizer.
 - No admin-bar removal, no activation redirects, no removal of non-presentational hooks.
 
@@ -46,7 +46,7 @@ Source: https://make.wordpress.org/themes/handbook/review/required/ — re-fetch
 - Max one front-end credit link (footer) + optional link to WordPress.org.
 
 ## Project conventions
-- Theme slug/dir: `elita-tour`; prefix `elita_tour_`; text domain `elita-tour`.
-- Companion plugin: `elita-tour-core`; prefix `elita_tour_core_`; text domain `elita-tour-core`. Registers CPT `tour`, taxonomies `tour_category`, `tour_season`, `tour_country`, meta: days, transport, price, price note, departure dates, route stops, hit flag.
-- Reference design: `reference/Elita Tour — Варіант C «Постер».html` + `tokens.css`, `base.css`, `components.css`, `theme-c.css`. Port markup and CSS as-is; only rename hooks/paths.
+- Theme slug/dir: `wha-tour-poster`; prefix `wha_tour_poster_`; text domain `wha-tour-poster`.
+- Companion plugin: `wha-tours-core`; prefix `wha_tours_core_`; text domain `wha-tours-core`. Registers CPT `tour`, taxonomies `tour_category`, `tour_season`, `tour_country`, meta: days, transport, price, price note, departure dates, route stops, hit flag.
+- Reference design: the poster-variant homepage HTML in `reference/` + `tokens.css`, `base.css`, `components.css`, `theme-c.css`. Port markup and CSS as-is; only rename hooks/paths.
 - Lint: `composer run lint` (phpcs with WPCS). Theme Check plugin on the dev site before packaging.

@@ -1,9 +1,9 @@
-# Elita Tour
+# WHA Tour Poster
 
-Classic WordPress theme for children's tour operators, built for the WordPress.org theme directory, plus the companion plugin **Elita Tour Core**.
+Classic WordPress theme for children's tour operators, built for the WordPress.org theme directory, plus the companion plugin **WHA Tours Core**.
 
-- `wp-content/themes/elita-tour` — the theme (Underscores-based, GPLv2+).
-- `wp-content/plugins/elita-tour-core` — tour post type, taxonomies, meta fields (CMB2), lead request form, demo importer.
+- `wp-content/themes/wha-tour-poster` — the theme (Underscores-based, GPLv2+).
+- `wp-content/plugins/wha-tours-core` — tour post type, taxonomies, meta fields (CMB2), lead request form, demo importer.
 - `bin/build.sh` — builds distributable zips into `build/`.
 
 ## Development

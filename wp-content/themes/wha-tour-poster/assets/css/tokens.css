@@ -1,0 +1,87 @@
+/* ============================================================
+   WHA Tour Poster — design tokens
+   Brand colours taken from sitelogo.svg: #E60E5F (crimson), #0D60B4 (blue).
+   The neutral scale carries a slight violet tint (a blend of the two brand
+   colours), so that both pink and blue sit naturally on the same background.
+
+   Ported from the original static design (Poster variant): its values are
+   merged into :root; the unused variants were dropped.
+   ============================================================ */
+:root {
+  /* Brand */
+  --pink:       #E60E5F;
+  --pink-deep:  #B8064A;
+  --pink-soft:  #FDE7EF;
+  --blue:       #0D60B4;
+  --blue-deep:  #083F78;
+  --blue-soft:  #E4EEF9;
+
+  /* Dark base of the Poster variant, derived from the blue of the logo */
+  --navy:       #0A1E3D;
+  --navy-2:     #12315C;
+
+  /* Helpers (one role each) */
+  --sun:        #FFB703;   /* "Hit" badge and stars only */
+  --ok:         #12A56A;   /* "places available" */
+  --ok-soft:    #E3F6EC;
+
+  /* Neutrals */
+  --ink:        #1B1A24;
+  --ink-2:      #4A4858;
+  --ink-3:      #7B7989;
+  --line:       #E6E3EA;
+  --paper:      #FFFFFF;
+  --paper-2:    #F5F3F9;
+  --night:      #14131C;   /* footer, dark panels */
+
+  /* Semantics */
+  --accent:        var(--pink);
+  --accent-deep:   var(--pink-deep);
+  --accent-soft:   var(--pink-soft);
+  --cta:           var(--pink);
+  --cta-deep:      var(--pink-deep);
+  --cta-hover:     #20C9E8;   /* primary button hover */
+  --focus:         var(--blue);
+  --section-alt-bg: var(--paper-2);
+
+  /* Typography */
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-body:    "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --display-weight: 600;
+  --display-tracking: 0.01em;
+  --display-transform: uppercase;
+
+  --fs-h1: clamp(2.5rem, 1.6rem + 4.2vw, 4.5rem);     /* 40 → 72 */
+  --fs-h2: clamp(1.875rem, 1.3rem + 2vw, 2.75rem);    /* 30 → 44 */
+  --fs-h3: 1.25rem;
+  --fs-lead: clamp(1.0625rem, 1rem + 0.35vw, 1.25rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-caption: 0.75rem;
+  --lh-tight: 1.1;
+  --lh-body: 1.55;
+
+  /* Spacing, radii, shadows */
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+  --space-5: 24px; --space-6: 32px; --space-7: 48px; --space-8: 64px;
+  --space-9: 96px; --space-10: 128px;
+  --section-y: clamp(56px, 4vw + 32px, 112px);
+
+  --radius-sm: 8px;
+  --radius-md: 8px;
+  --radius-card: 6px;
+  --radius-btn: 4px;
+  --radius-chip: 4px;
+
+  --shadow-1: none;
+  --shadow-2: 0 8px 24px rgba(27, 26, 36, .10), 0 2px 6px rgba(27, 26, 36, .06);
+  --shadow-3: 0 24px 48px rgba(27, 26, 36, .16);
+
+  --container: 1280px;
+  --gutter: 16px;
+
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --dur: 220ms;
+}
+
+@media (min-width: 768px) { :root { --gutter: 32px; } }

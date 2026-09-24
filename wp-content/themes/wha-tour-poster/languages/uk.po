@@ -1,0 +1,999 @@
+# Ukrainian translation for WHA Tour Poster.
+# This file is distributed under the same license as the WHA Tour Poster package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WHA Tour Poster 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/wha-tour-poster\n"
+"POT-Creation-Date: 2026-09-24T05:51:12+00:00\n"
+"PO-Revision-Date: 2026-09-22 12:00+0000\n"
+"Last-Translator: Web Help Agency <info@webhelpagency.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: wha-tour-poster\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Theme Name of the theme
+#: style.css inc/customizer.php:37
+msgid "WHA Tour Poster"
+msgstr "WHA Tour Poster"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/webhelpagency/wha-tour-poster"
+msgstr "https://github.com/webhelpagency/wha-tour-poster"
+
+#. Description of the theme
+#: style.css
+msgid ""
+"WHA Tour Poster is a poster-styled theme for a children's tour operator: the "
+"front page leads with full-bleed category panels, programmes are presented "
+"as poster cards over photography, seasonal departures are grouped into "
+"keyboard-accessible tabs, and the footer keeps contacts and social links "
+"within reach. It bundles the Oswald and Manrope webfonts with full Cyrillic "
+"coverage and ships a matching block editor stylesheet. Designed for tour "
+"operators; when a tour post type with route, dates and price data is "
+"available (such as the WHA Tours Core plugin), it renders poster cards and "
+"seasonal departures; otherwise it falls back to standard posts and "
+"categories."
+msgstr ""
+"WHA Tour Poster — тема в постерному стилі для дитячого туроператора: головна "
+"сторінка починається з панелей категорій на всю ширину, програми показані "
+"постерними картками поверх фотографій, найближчі виїзди згруповані у вкладки "
+"за сезонами з підтримкою клавіатури, а в підвалі завжди під рукою контакти "
+"та соцмережі. Тема містить вбудовані шрифти Oswald і Manrope з повною "
+"кирилицею та окремі стилі для редактора блоків. Створена для туроператорів: "
+"якщо доступний тип запису «Тур» із даними про маршрут, дати й ціну "
+"(наприклад, із плагіна WHA Tours Core), тема виводить постерні картки та "
+"сезонні виїзди, а без нього повертається до звичайних записів і рубрик."
+
+#. Author of the theme
+#: style.css
+msgid "Web Help Agency"
+msgstr "Web Help Agency"
+
+#. Author URI of the theme
+#: style.css
+msgid "https://webhelpagency.com"
+msgstr "https://webhelpagency.com"
+
+#: 404.php:18
+msgid "404"
+msgstr "404"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Таку сторінку не знайдено."
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Try a search, or pick a "
+"programme from the catalogue."
+msgstr ""
+"Схоже, за цією адресою нічого немає. Скористайтеся пошуком або оберіть "
+"програму з каталогу."
+
+#: 404.php:26
+msgid "Back to the homepage"
+msgstr "На головну"
+
+#: archive.php:26
+msgid "Archive"
+msgstr "Архів"
+
+#: archive.php:60 index.php:61 search.php:69
+#: template-parts/tour/archive.php:215
+msgid "Previous"
+msgstr "Назад"
+
+#: archive.php:61 index.php:62 search.php:70
+#: template-parts/tour/archive.php:216
+msgid "Next"
+msgstr "Далі"
+
+#: archive.php:62 index.php:63
+msgid "Posts navigation"
+msgstr "Навігація записами"
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Один коментар до «%1$s»"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s коментар до «%2$s»"
+msgstr[1] "%1$s коментарі до «%2$s»"
+msgstr[2] "%1$s коментарів до «%2$s»"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Коментування закрито."
+
+#. translators: 1: current year, 2: site name.
+#: footer.php:52
+#, php-format
+msgid "© %1$s %2$s"
+msgstr "© %1$s %2$s"
+
+#: footer.php:61
+msgid "Footer menu"
+msgstr "Меню підвалу"
+
+#. translators: 1: theme name, 2: theme author link.
+#: footer.php:81
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Тема: %1$s від %2$s"
+
+#: front-page.php:57 single-tour.php:114 template-parts/content-page.php:25
+#: template-parts/content-single.php:49
+msgid "Pages:"
+msgstr "Сторінки:"
+
+#: functions.php:56 functions.php:137
+msgid "Primary Menu"
+msgstr "Головне меню"
+
+#: functions.php:57 functions.php:144
+msgid "Footer Legal Menu"
+msgstr "Правове меню підвалу"
+
+#: functions.php:117
+msgctxt "Theme starter content"
+msgid "Home"
+msgstr "Головна"
+
+#: functions.php:121
+msgctxt "Theme starter content"
+msgid "Blog"
+msgstr "Блог"
+
+#: functions.php:124
+msgctxt "Theme starter content"
+msgid "About us"
+msgstr "Про нас"
+
+#: functions.php:127
+msgctxt "Theme starter content"
+msgid "Contacts"
+msgstr "Контакти"
+
+#: functions.php:148
+msgctxt "Theme starter content"
+msgid "Terms of service"
+msgstr "Договір публічної оферти"
+
+#: functions.php:155
+msgctxt "Theme starter content"
+msgid "+1 555 0100"
+msgstr "+1 555 0100"
+
+#: functions.php:156
+msgctxt "Theme starter content"
+msgid "Tour operator for children"
+msgstr "Дитячий туроператор"
+
+#: functions.php:157
+msgctxt "Theme starter content"
+msgid "Where are we going"
+msgstr "Куди їдемо"
+
+#: functions.php:158
+msgctxt "Theme starter content"
+msgid "for the holidays?"
+msgstr "на канікули?"
+
+#: functions.php:159
+msgctxt "Theme starter content"
+msgid ""
+"Seaside camps, coach tours around Europe, excursions at home and adventure "
+"routes for school groups and families. Pick a direction, we arrange the rest."
+msgstr ""
+"Табори на морі, автобусні тури Європою, екскурсії Україною та пригодницькі "
+"маршрути для шкільних груп і сімей. Оберіть напрям, решту організуємо ми."
+
+#: functions.php:161
+msgctxt "Theme starter content"
+msgid "years of travel for children"
+msgstr "років дитячого туризму"
+
+#: functions.php:162
+msgctxt "Theme starter content"
+msgid ""
+"We know how to take a group through a border, a hotel and a museum without "
+"any stress."
+msgstr ""
+"Знаємо, як провести групу через кордон, готель і музей без стресу."
+
+#: functions.php:165
+msgctxt "Theme starter content"
+msgid "group leader of our own"
+msgstr "власний керівник групи"
+
+#: functions.php:166
+msgctxt "Theme starter content"
+msgid ""
+"With the group from departure to return, and in touch with the parents every "
+"day."
+msgstr ""
+"Супроводжує від виїзду до повернення і щодня на зв’язку з батьками."
+
+#: functions.php:168
+msgctxt "Theme starter content"
+msgid "year founded"
+msgstr "рік заснування"
+
+#: functions.php:170
+msgctxt "Theme starter content"
+msgid "programmes in the catalogue"
+msgstr "програм у каталозі"
+
+#: functions.php:172
+msgctxt "Theme starter content"
+msgid "countries in Europe"
+msgstr "країн Європи"
+
+#: functions.php:173
+msgctxt "Theme starter content"
+msgid "Tell us about your group and we will pick a programme within a day"
+msgstr "Розкажіть про групу — підберемо програму за день"
+
+#: functions.php:174
+msgctxt "Theme starter content"
+msgid ""
+"How many children, what age, when the holidays are and what budget you have. "
+"We take care of the rest."
+msgstr ""
+"Скільки дітей, якого віку, коли канікули і який бюджет. Решту ми зробимо "
+"самі."
+
+#: functions.php:203
+msgid "Sidebar"
+msgstr "Бічна панель"
+
+#: functions.php:205
+msgid "Add widgets here."
+msgstr "Додайте віджети сюди."
+
+#: functions.php:214
+msgid "Footer 1"
+msgstr "Підвал 1"
+
+#: functions.php:215
+msgid "Footer 2"
+msgstr "Підвал 2"
+
+#: functions.php:216
+msgid "Footer 3"
+msgstr "Підвал 3"
+
+#: functions.php:224
+msgid "Widgets shown in the footer column."
+msgstr "Віджети, що показуються в колонці підвалу."
+
+#: functions.php:235
+msgid "Lead form"
+msgstr "Форма заявки"
+
+#: functions.php:237
+msgid "Drop the enquiry form widget of the WHA Tours Core plugin here."
+msgstr "Розмістіть тут віджет форми заявки з плагіна WHA Tours Core."
+
+#: header.php:29
+msgid "Skip to content"
+msgstr "Перейти до контенту"
+
+#: header.php:48 header.php:92
+msgid "Primary menu"
+msgstr "Головне меню"
+
+#: header.php:69
+msgid "Open menu"
+msgstr "Відкрити меню"
+
+#: header.php:75
+msgid "Site menu"
+msgstr "Меню сайту"
+
+#: header.php:86
+msgid "Close menu"
+msgstr "Закрити меню"
+
+#: inc/customizer.php:38
+msgid ""
+"Contacts, call to action and social links used by the header and the footer."
+msgstr "Контакти, кнопка дії та соцмережі, які використовують шапка і підвал."
+
+#: inc/customizer.php:47
+msgid "Header"
+msgstr "Шапка"
+
+#: inc/customizer.php:63
+msgid "Phone number"
+msgstr "Номер телефону"
+
+#: inc/customizer.php:64
+msgid ""
+"Shown in the header and in the mobile menu. Leave empty to hide the phone "
+"link."
+msgstr ""
+"Показується в шапці та в мобільному меню. Залиште порожнім, щоб сховати "
+"посилання на телефон."
+
+#: inc/customizer.php:73 inc/template-tags.php:341
+msgid "Pick a programme"
+msgstr "Підібрати програму"
+
+#: inc/customizer.php:81
+msgid "Call to action label"
+msgstr "Напис на кнопці дії"
+
+#: inc/customizer.php:98
+msgid "Call to action link"
+msgstr "Посилання кнопки дії"
+
+#: inc/customizer.php:99
+msgid "Leave empty to link to the request form on the front page."
+msgstr ""
+"Залиште порожнім, щоб посилання вело на форму заявки на головній сторінці."
+
+#: inc/customizer.php:139
+msgid "Social links"
+msgstr "Соцмережі"
+
+#: inc/customizer.php:140
+msgid "Links shown in the footer. Empty fields are not rendered."
+msgstr "Посилання, що показуються в підвалі. Порожні поля не виводяться."
+
+#: inc/customizer.php:146
+msgid "Facebook URL"
+msgstr "Посилання на Facebook"
+
+#: inc/customizer.php:147
+msgid "Instagram URL"
+msgstr "Посилання на Instagram"
+
+#: inc/customizer.php:148
+msgid "Telegram URL"
+msgstr "Посилання на Telegram"
+
+#: inc/customizer.php:149
+msgid "Viber URL"
+msgstr "Посилання на Viber"
+
+#: inc/customizer.php:186
+msgid "Homepage hero"
+msgstr "Головна: банер"
+
+#: inc/customizer.php:187
+msgid "Headline above the category panels of the homepage."
+msgstr "Заголовок над панелями категорій на головній сторінці."
+
+#: inc/customizer.php:194 inc/customizer.php:289
+msgid "Eyebrow"
+msgstr "Надзаголовок"
+
+#: inc/customizer.php:195 template-parts/home/hero.php:10
+msgid "Tour operator for children"
+msgstr "Дитячий туроператор"
+
+#: inc/customizer.php:200
+msgid "Headline"
+msgstr "Заголовок"
+
+#: inc/customizer.php:201 template-parts/home/hero.php:11
+msgid "Where are we going"
+msgstr "Куди їдемо"
+
+#: inc/customizer.php:206
+msgid "Headline accent"
+msgstr "Акцент заголовка"
+
+#: inc/customizer.php:207
+msgid "Second half of the headline, shown in the accent colour."
+msgstr "Друга частина заголовка, виділена акцентним кольором."
+
+#: inc/customizer.php:208 template-parts/home/hero.php:12
+msgid "for the holidays?"
+msgstr "на канікули?"
+
+#: inc/customizer.php:213
+msgid "Lead paragraph"
+msgstr "Вступний абзац"
+
+#: inc/customizer.php:214 template-parts/home/hero.php:13
+msgid ""
+"Seaside camps, coach tours around Europe, excursions at home and adventure "
+"routes for school groups and families. Pick a direction, we arrange the rest."
+msgstr ""
+"Табори на морі, автобусні тури Європою, екскурсії Україною та пригодницькі "
+"маршрути для шкільних груп і сімей. Оберіть напрям, решту організуємо ми."
+
+#: inc/customizer.php:226
+msgid "Homepage facts"
+msgstr "Головна: факти"
+
+#: inc/customizer.php:227
+msgid ""
+"Four numbers shown below the programmes. A slot without a title is not "
+"rendered."
+msgstr ""
+"Чотири числа, що показуються під програмами. Слот без заголовка не "
+"виводиться."
+
+#. translators: %d: fact number.
+#: inc/customizer.php:237
+#, php-format
+msgid "Fact %d: number"
+msgstr "Факт %d: число"
+
+#. translators: %d: fact number.
+#: inc/customizer.php:244
+#, php-format
+msgid "Fact %d: accent"
+msgstr "Факт %d: акцент"
+
+#: inc/customizer.php:245
+msgid "Short suffix of the number, shown in the accent colour."
+msgstr "Коротке доповнення до числа, показується акцентним кольором."
+
+#. translators: %d: fact number.
+#: inc/customizer.php:252
+#, php-format
+msgid "Fact %d: title"
+msgstr "Факт %d: заголовок"
+
+#. translators: %d: fact number.
+#: inc/customizer.php:259
+#, php-format
+msgid "Fact %d: text"
+msgstr "Факт %d: текст"
+
+#: inc/customizer.php:272
+msgid "Homepage about block"
+msgstr "Головна: блок «Про нас»"
+
+#: inc/customizer.php:273
+msgid ""
+"Title, excerpt and featured image are taken from the selected page. Without "
+"a page the block is not rendered."
+msgstr ""
+"Заголовок, короткий опис і зображення беруться з обраної сторінки. Без "
+"сторінки блок не виводиться."
+
+#: inc/customizer.php:281 template-parts/home/about.php:18
+msgid "About us"
+msgstr "Про нас"
+
+#: inc/customizer.php:306
+msgid "Page"
+msgstr "Сторінка"
+
+#. translators: %d: stat number.
+#: inc/customizer.php:317
+#, php-format
+msgid "Stat %d: number"
+msgstr "Показник %d: число"
+
+#. translators: %d: stat number.
+#: inc/customizer.php:324
+#, php-format
+msgid "Stat %d: label"
+msgstr "Показник %d: підпис"
+
+#: inc/customizer.php:337
+msgid "Homepage enquiry block"
+msgstr "Головна: блок заявки"
+
+#: inc/customizer.php:338
+msgid ""
+"Text next to the enquiry form. The form itself comes from the \"Lead form\" "
+"widget area or from the WHA Tours Core plugin."
+msgstr ""
+"Текст поряд із формою заявки. Сама форма береться із зони віджетів «Форма "
+"заявки» або з плагіна WHA Tours Core."
+
+#: inc/customizer.php:348
+msgid "Heading"
+msgstr "Заголовок"
+
+#: inc/customizer.php:349 template-parts/home/lead.php:13
+msgid "Tell us about your group and we will pick a programme within a day"
+msgstr "Розкажіть про групу — підберемо програму за день"
+
+#: inc/customizer.php:354
+msgid "Text"
+msgstr "Текст"
+
+#: inc/customizer.php:355 template-parts/home/lead.php:14
+msgid ""
+"How many children, what age, when the holidays are and what budget you have. "
+"We take care of the rest."
+msgstr ""
+"Скільки дітей, якого віку, коли канікули і який бюджет. Решту ми зробимо "
+"самі."
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубліковано %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "автор: %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:61
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:64
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Рубрики: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:68
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:71
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Мітки: %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:81
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Залишити коментар<span class=\"screen-reader-text\"> до %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:98 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Редагувати <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:397
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/template-tags.php:398
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/template-tags.php:399
+msgid "Telegram"
+msgstr "Telegram"
+
+#: inc/template-tags.php:400
+msgid "Viber"
+msgstr "Viber"
+
+#: index.php:21
+msgid "Latest posts"
+msgstr "Останні записи"
+
+#: index.php:31
+msgid "Blog"
+msgstr "Блог"
+
+#: search.php:24
+msgid "Search"
+msgstr "Пошук"
+
+#. translators: %s: search query.
+#: search.php:28
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результати пошуку за запитом: %s"
+
+#: search.php:71
+msgid "Search results navigation"
+msgstr "Навігація результатами пошуку"
+
+#: searchform.php:15
+msgctxt "label"
+msgid "Search"
+msgstr "Пошук"
+
+#: searchform.php:21
+msgctxt "placeholder"
+msgid "Where are we going?"
+msgstr "Куди їдемо?"
+
+#: searchform.php:25
+msgctxt "submit button"
+msgid "Search"
+msgstr "Знайти"
+
+#: single-tour.php:49
+msgid "Seats available"
+msgstr "Є місця"
+
+#: single-tour.php:50
+msgid "Few seats"
+msgstr "Мало місць"
+
+#: single-tour.php:51
+msgid "Closed"
+msgstr "Набір закрито"
+
+#: single-tour.php:87 template-parts/tour/poster.php:87
+msgid "Hit"
+msgstr "Хіт"
+
+#: single-tour.php:121
+msgid "Programme details"
+msgstr "Деталі програми"
+
+#: single-tour.php:124
+msgid "Price"
+msgstr "Ціна"
+
+#. translators: %d: number of days.
+#: single-tour.php:143 template-parts/tour/poster.php:116
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d день"
+msgstr[1] "%d дні"
+msgstr[2] "%d днів"
+
+#: single-tour.php:169
+msgid "Departure dates"
+msgstr "Дати виїздів"
+
+#: single-tour.php:193
+msgid "Route"
+msgstr "Маршрут"
+
+#: single-tour.php:205
+msgid "Countries"
+msgstr "Країни"
+
+#: single-tour.php:210
+msgid "Request this programme"
+msgstr "Залишити заявку на програму"
+
+#: single-tour.php:243
+msgid "Nearby"
+msgstr "Поруч"
+
+#: single-tour.php:244
+msgid "Similar programmes"
+msgstr "Схожі програми"
+
+#: single-tour.php:247 template-parts/content-none.php:59
+#: template-parts/home/top.php:25
+msgid "All programmes"
+msgstr "Весь каталог"
+
+#: single.php:29
+msgid "Previous:"
+msgstr "Попередній:"
+
+#: single.php:30
+msgid "Next:"
+msgstr "Наступний:"
+
+#: template-parts/content-none.php:18
+msgid "Empty"
+msgstr "Порожньо"
+
+#: template-parts/content-none.php:19
+msgid "Nothing found"
+msgstr "Нічого не знайдено"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:30
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готові опублікувати перший запис? <a href=\"%1$s\">Почніть звідси</a>."
+
+#: template-parts/content-none.php:43
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"На жаль, за вашим запитом нічого не знайдено. Спробуйте інші ключові слова."
+
+#: template-parts/content-none.php:50
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Схоже, ми не можемо знайти те, що ви шукаєте. Можливо, допоможе пошук."
+
+#: template-parts/home/about.php:81
+msgid "More about the company"
+msgstr "Більше про компанію"
+
+#: template-parts/home/facts.php:36
+msgid "Why parents trust us with their children"
+msgstr "Чому батьки довіряють нам дітей"
+
+#: template-parts/home/facts.php:37
+msgid "What we take care of"
+msgstr "Що ми беремо на себе"
+
+#. translators: %d: number of programmes in the category.
+#: template-parts/home/hero.php:70
+#, php-format
+msgid "%d programme"
+msgid_plural "%d programmes"
+msgstr[0] "%d програма"
+msgstr[1] "%d програми"
+msgstr[2] "%d програм"
+
+#: template-parts/home/hero.php:79
+msgid "View programmes"
+msgstr "Дивитись програми"
+
+#: template-parts/home/lead.php:29
+msgid "Request"
+msgstr "Заявка"
+
+#: template-parts/home/lead.php:46
+msgid "Message us on Telegram"
+msgstr "Написати в Telegram"
+
+#: template-parts/home/lead.php:50
+msgid "Message us on Viber"
+msgstr "Написати у Viber"
+
+#: template-parts/home/search.php:25
+msgid "Where"
+msgstr "Куди"
+
+#: template-parts/home/search.php:26
+msgid "Any category"
+msgstr "Будь-яка категорія"
+
+#: template-parts/home/search.php:30
+msgid "When"
+msgstr "Коли"
+
+#: template-parts/home/search.php:31
+msgid "Any season"
+msgstr "Будь-який сезон"
+
+#: template-parts/home/search.php:36
+msgid "Country"
+msgstr "Країна"
+
+#: template-parts/home/search.php:37
+msgid "All countries"
+msgstr "Усі країни"
+
+#: template-parts/home/search.php:102
+msgid "Filter programmes"
+msgstr "Фільтр програм"
+
+#: template-parts/home/search.php:130
+msgid "Show programmes"
+msgstr "Показати програми"
+
+#: template-parts/home/seasons.php:52
+msgid "Holidays by the calendar"
+msgstr "Канікули за календарем"
+
+#: template-parts/home/seasons.php:53
+msgid "Upcoming departures"
+msgstr "Найближчі виїзди"
+
+#: template-parts/home/seasons.php:56
+msgid "Season"
+msgstr "Сезон"
+
+#: template-parts/home/top.php:21
+msgid "Chosen most often"
+msgstr "Обирають найчастіше"
+
+#: template-parts/home/top.php:22
+msgid "Season hits"
+msgstr "Хіти сезону"
+
+#: template-parts/tour/archive.php:58
+msgid "Programmes"
+msgstr "Програми"
+
+#: template-parts/tour/archive.php:142
+msgid "Catalogue"
+msgstr "Каталог"
+
+#: template-parts/tour/archive.php:154
+msgid "Filter by season"
+msgstr "Фільтрувати за сезоном"
+
+#: template-parts/tour/archive.php:155
+msgid "All seasons"
+msgstr "Усі сезони"
+
+#: template-parts/tour/archive.php:171
+msgid "Filter by category"
+msgstr "Фільтрувати за категорією"
+
+#: template-parts/tour/archive.php:172
+msgid "All categories"
+msgstr "Усі категорії"
+
+#: template-parts/tour/archive.php:217
+msgid "Programmes navigation"
+msgstr "Навігація програмами"
+
+#: template-parts/tour/poster.php:149
+msgid "price"
+msgstr "ціна"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Pink"
+msgstr "Рожевий"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Pink deep"
+msgstr "Рожевий темний"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Pink soft"
+msgstr "Рожевий світлий"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Blue"
+msgstr "Синій"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Blue deep"
+msgstr "Синій темний"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Blue soft"
+msgstr "Синій світлий"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Navy"
+msgstr "Нічний синій"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sun"
+msgstr "Сонячний"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Available"
+msgstr "Вільні місця"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr "Чорнило"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink 2"
+msgstr "Чорнило 2"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink 3"
+msgstr "Чорнило 3"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Line"
+msgstr "Лінія"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Paper"
+msgstr "Папір"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Paper 2"
+msgstr "Папір 2"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Night"
+msgstr "Ніч"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Oswald"
+msgstr "Oswald"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Manrope"
+msgstr "Manrope"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Малий"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Середній"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Великий"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr "Дуже великий"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "Величезний"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "1"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "2"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "3"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr "7"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "8"
+msgstr "8"

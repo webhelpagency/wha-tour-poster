@@ -1,6 +1,6 @@
 {
-	"name": "elita-tour/elita-tour",
-	"description": "Development tooling for the Elita Tour WordPress theme and its companion plugin.",
+	"name": "wha-tour-poster/wha-tour-poster",
+	"description": "Development tooling for the WHA Tour Poster WordPress theme and its companion plugin.",
 	"type": "project",
 	"license": "GPL-2.0-or-later",
 	"require-dev": {

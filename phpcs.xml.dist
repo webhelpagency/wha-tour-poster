@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<ruleset name="Elita Tour">
-	<description>Coding standards for the Elita Tour theme and its companion plugin.</description>
+<ruleset name="WHA Tour Poster">
+	<description>Coding standards for the WHA Tour Poster theme and its companion plugin.</description>
 
 	<!-- What to scan. -->
-	<file>wp-content/themes/elita-tour</file>
-	<file>wp-content/plugins/elita-tour-core</file>
+	<file>wp-content/themes/wha-tour-poster</file>
+	<file>wp-content/plugins/wha-tours-core</file>
 
 	<exclude-pattern>*/vendor/*</exclude-pattern>
 	<exclude-pattern>*/node_modules/*</exclude-pattern>
@@ -44,8 +44,8 @@
 	<rule ref="WordPress.WP.I18n">
 		<properties>
 			<property name="text_domain" type="array">
-				<element value="elita-tour"/>
-				<element value="elita-tour-core"/>
+				<element value="wha-tour-poster"/>
+				<element value="wha-tours-core"/>
 			</property>
 		</properties>
 	</rule>
@@ -54,9 +54,10 @@
 	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
 		<properties>
 			<property name="prefixes" type="array">
-				<element value="elita_tour"/>
-				<element value="elita_tour_core"/>
-				<element value="ELITA_TOUR"/>
+				<element value="wha_tour_poster"/>
+				<element value="wha_tours_core"/>
+				<element value="WHA_TOUR_POSTER"/>
+				<element value="WHA_TOURS_CORE"/>
 			</property>
 		</properties>
 	</rule>
